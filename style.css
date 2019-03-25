@@ -1,16 +1,22 @@
 
 
-title {
+header {
     font-family: Impact;
     color: white;
+    text-align: center
 }
 
+h1 {
+    text-shadow: 3px 2px black;
+    letter-spacing: 5px;
+}
 body {
     background-image: url("images/hw_background.jpg");
 }
 
 p {
     font-family: "Tahoma";
+    text-align: justify;
     color: white;
 }
 
@@ -18,7 +24,7 @@ h4 {
     color: black;
 }
 
-div {
+.blog {
     background-color: purple;
     opacity: .3;
     width: 350px;
@@ -26,4 +32,43 @@ div {
     padding: 40px 40px;
     margin: 40 px;
 }
+
+.grid-container {
+    display: grid;
+    height: 90vh;
+    margin: 2rem;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 fr 1 fr 1fr;
+}
+
+.item {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+}    
+
+.item-1 {
+    background: purple;
+}
+
+.item-2 {
+    background: blue;
+}
+
+.item-3 {
+    background: green;
+}
+
+.item-4 {
+    background: red;
+}
+
+.item-5 {
+    background: black;
+}
+
+
+
 
