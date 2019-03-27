@@ -25,6 +25,7 @@ h1 {
     letter-spacing: 5px;
 }
 body {
+    min-width: 1100px;
     background-image: url("images/hw_background.jpg");
 }
 
@@ -50,6 +51,7 @@ h4 {
 .blog {
     background-color: rgb(102, 0, 204);
     opacity: .7;
+    min-width: 250;
     width: 500px;
     border: 5px solid black;
     float: right;
