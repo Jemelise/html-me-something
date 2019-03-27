@@ -1,24 +1,39 @@
 
-
 header {
     font-family: Impact;
-    color: white;
+    color: lightgrey;
     text-align: center
+}
+
+.page-header {
+    font-family: Impact;
+    color: lightgrey;
+    text-align: center;
 }
 
 .logo {
     width: 151px;
     padding: 1px 1px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 1px;
+    margin-left: 40px;
 }
 
 h1 {
+    color: lightgrey;
     text-shadow: 3px 2px black;
+    font-family: Impact;
     letter-spacing: 5px;
 }
 body {
     background-image: url("images/hw_background.jpg");
+}
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left:10px;
+    margin-top: 1px;
+    padding: 5px;
 }
 
 p {
@@ -35,19 +50,28 @@ h4 {
 .blog {
     background-color: rgb(102, 0, 204);
     opacity: .7;
-    width: 700px;
+    width: 500px;
     border: 5px solid black;
-    padding: 40px 40px;
-    margin: auto;
+    float: right;
+    padding: 20px 40px;
+    margin-right: 100px;
+}
+
+.loot-box {
+    float: left;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Tahoma;
 }
 
 #loot {
-    background-color: gray;
+    background-color: lightgray;
     opacity: .5;
-    width: 350px;
-    border: 5px solid white;
-    padding: 170px 40px;
-    margin: auto;
+    width: 370px;
+    border: 5px solid grey;
+    padding: 250px 10px;
+    text-align: left; 
+    list-style-type: square;
 }
 
 .images {
@@ -63,6 +87,13 @@ h4 {
     display: block;
     margin: 0 auto;
     max-width: 500px
+}
+
+.empty {
+
+margin-top: 100px;
+margin-bottom: 100px;
+
 }
 
 footer p {
