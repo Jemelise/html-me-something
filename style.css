@@ -4,6 +4,49 @@ header {
     color: lightgrey;
     text-align: center
 }
+  
+  .catlist {
+          grid-area: sidebar;
+      }
+  
+      .catblog {
+          grid-area: content;
+      }
+  
+      .catheader {
+          grid-area: header;
+      }
+  
+      .catvideo {
+          grid-area: footer;
+      }
+  
+  
+      .wrapper {
+          display: grid;
+      grid-gap: 10px;
+          grid-template-columns: 120px 120px 120px;
+          grid-template-areas:
+      "....... header header"
+          "sidebar content content"
+          "footer  footer  footer";
+          background-color: #fff;
+          color: #444;
+      }
+  
+  
+  .catbox {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+  }
+  
+  .catheader,
+  .catfooter {
+    background-color: #999;
+  }
 
 .page-header {
     font-family: Impact;
@@ -31,9 +74,8 @@ body {
 
 .box {
     float: left;
-    width: 200px;
-    margin-left:10px;
-    margin-top: 1px;
+    width: 20vw;
+    height: 40vh;
     padding: 5px;
 }
 
@@ -51,12 +93,13 @@ h4 {
 .blog {
     background-color: rgb(102, 0, 204);
     opacity: .7;
-    min-width: 250;
-    width: 500px;
+   
+    width: 50vw;
+    height: 80vh;
     border: 5px solid black;
     float: right;
     padding: 20px 40px;
-    margin-right: 100px;
+  
 }
 
 .loot-box {
