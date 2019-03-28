@@ -2,17 +2,14 @@
 header {
     font-family: Impact;
     color: lightgrey;
-    text-align: center
 }
 
 .page-header {
     font-family: Impact;
     color: lightgrey;
-    text-align: center;
 }
 
 .logo {
-    width: 151px;
     padding: 1px 1px;
     margin-top: 1px;
     margin-left: 40px;
@@ -22,7 +19,7 @@ h1 {
     color: lightgrey;
     text-shadow: 3px 2px black;
     font-family: Impact;
-    letter-spacing: 5px;
+    letter-spacing:4px;
 }
 body {
     min-width: 1100px;
@@ -34,7 +31,7 @@ body {
     width: 200px;
     margin-left:10px;
     margin-top: 1px;
-    padding: 5px;
+    padding: 10px 5px 1px;
 }
 
 p {
@@ -62,7 +59,7 @@ h4 {
 .loot-box {
     float: left;
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 17px;
     font-family: Tahoma;
 }
 
@@ -70,14 +67,27 @@ h4 {
     background-color: lightgray;
     opacity: .5;
     width: 370px;
+    height:355px;
     border: 5px solid grey;
-    padding: 250px 10px;
-    text-align: left; 
+    padding: 40px 30px 30px;
+    text-align: justify; 
     list-style-type: square;
 }
 
 .images {
     margin: 0 auto;
+}
+
+.residence {
+    font-family: Impacto;
+    text-align: center;
+    font-size: 21;
+    color: white;
+    padding: 900px 50px 50px 50px;
+}
+
+#question {
+    text-align: center;
 }
 
 .youtube {
@@ -92,10 +102,8 @@ h4 {
 }
 
 .empty {
-
 margin-top: 100px;
 margin-bottom: 100px;
-
 }
 
 footer p {
